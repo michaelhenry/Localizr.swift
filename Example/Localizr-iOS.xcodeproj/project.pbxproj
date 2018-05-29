@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A6B45F7220BD480800BE1AAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B45F7420BD480800BE1AAA /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		1A9A308E1C354291474AB2CE /* Pods_Localizr_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Localizr_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F8F891F3CC7A9FA55D82E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23F8F891F3CC7A9FA55D82E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A79814A440141C7D5E56C62 /* Pods-Localizr-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localizr-iOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Localizr-iOS_Example/Pods-Localizr-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A95CB4ABA52EE3CCEA5260B /* Pods_Localizr_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Localizr_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Localizr-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Localizr-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +44,15 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9F16AE9B51262A35DCCDBB16 /* Pods-Localizr-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localizr-iOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Localizr-iOS_Example/Pods-Localizr-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A2A2612FA20B0CA9A227053A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2A2612FA20B0CA9A227053A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6B45F7520BD480C00BE1AAA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A6B45F7620BD480F00BE1AAA /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A6B45F7720BD482200BE1AAA /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A6B45F7820BD493200BE1AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A6B45F7920BD54D100BE1AAA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A6B45F7A20BD551500BE1AAA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CFCB7606E3535125096A5243 /* Pods-Localizr-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localizr-iOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Localizr-iOS_Tests/Pods-Localizr-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB917A8742455F1FC41442D7 /* Localizr-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "Localizr-iOS.podspec"; path = "../Localizr-iOS.podspec"; sourceTree = "<group>"; };
+		DB917A8742455F1FC41442D7 /* Localizr-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "Localizr-iOS.podspec"; path = "../Localizr-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBB1E300C17B8A2200B43391 /* Pods-Localizr-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localizr-iOS_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Localizr-iOS_Tests/Pods-Localizr-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +111,7 @@
 		607FACD21AFB9204008FA782 /* Example for Localizr-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A6B45F6620BD421B00BE1AAA /* Locales */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -150,6 +158,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A6B45F6620BD421B00BE1AAA /* Locales */ = {
+			isa = PBXGroup;
+			children = (
+				A6B45F7420BD480800BE1AAA /* Localizable.strings */,
+			);
+			path = Locales;
+			sourceTree = "<group>";
+		};
 		C132CB4B6C404251EDB59857 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +187,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				2CD08C51CAF147B9DC47F73E /* [CP] Embed Pods Frameworks */,
+				A6B45F6520BD3FDF00BE1AAA /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -213,6 +230,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V542NQW43X;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -229,6 +247,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"pt-BR",
+				zh,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -247,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				A6B45F7220BD480800BE1AAA /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -315,6 +339,20 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A6B45F6520BD3FDF00BE1AAA /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export LOCALIZR_TOKEN=\"3ffafed1e4922b735524d9549c6a4619fc556f6c\"\nexport LOCALIZR_SERVER_URL=\"http://localizr.iamkel.net\"\n\n# Base Localization\nmkdir -p Localizr-iOS/Locales/Base.lproj\ncurl --fail --silent -o Localizr-iOS/Locales/Base.lproj/Localizable.strings \"$LOCALIZR_SERVER_URL/app/demo.en?format=ios\" -H \"Authorization: Token $LOCALIZR_TOKEN\"\n\n# Japanese Localization\nmkdir -p Localizr-iOS/Locales/ja.lproj\ncurl --fail --silent -o Localizr-iOS/Locales/ja.lproj/Localizable.strings \"$LOCALIZR_SERVER_URL/app/demo.ja?format=ios\" -H \"Authorization: Token $LOCALIZR_TOKEN\"\n\n# Chinese Localization\nmkdir -p Localizr-iOS/Locales/zh.lproj\ncurl --fail --silent -o Localizr-iOS/Locales/zh.lproj/Localizable.strings \"$LOCALIZR_SERVER_URL/app/demo.zh?format=ios\" -H \"Authorization: Token $LOCALIZR_TOKEN\"\n\n# Chinese(Traditional) Localization\nmkdir -p Localizr-iOS/Locales/zh-Hant.lproj\ncurl --fail --silent -o Localizr-iOS/Locales/zh-Hant.lproj/Localizable.strings \"$LOCALIZR_SERVER_URL/app/demo.zh?format=ios\" -H \"Authorization: Token $LOCALIZR_TOKEN\"\n\n# Chinese(simplified) Localization\nmkdir -p Localizr-iOS/Locales/zh-Hans.lproj\ncurl --fail --silent -o Localizr-iOS/Locales/zh-Hans.lproj/Localizable.strings \"$LOCALIZR_SERVER_URL/app/demo.zh?format=ios\" -H \"Authorization: Token $LOCALIZR_TOKEN\"\n";
 		};
 		D7D1C2B0F8D3F242C3249E30 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -387,6 +425,19 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		A6B45F7420BD480800BE1AAA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B45F7520BD480C00BE1AAA /* ja */,
+				A6B45F7620BD480F00BE1AAA /* pt-BR */,
+				A6B45F7720BD482200BE1AAA /* zh */,
+				A6B45F7820BD493200BE1AAA /* Base */,
+				A6B45F7920BD54D100BE1AAA /* zh-Hans */,
+				A6B45F7A20BD551500BE1AAA /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -394,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -447,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -494,10 +547,11 @@
 			baseConfigurationReference = 9F16AE9B51262A35DCCDBB16 /* Pods-Localizr-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V542NQW43X;
 				INFOPLIST_FILE = "Localizr-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.iamkel.Localizr-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -509,10 +563,11 @@
 			baseConfigurationReference = 3A79814A440141C7D5E56C62 /* Pods-Localizr-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V542NQW43X;
 				INFOPLIST_FILE = "Localizr-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.iamkel.Localizr-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
