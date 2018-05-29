@@ -1,6 +1,6 @@
 # Localizr-iOS
 
-[![CI Status](https://img.shields.io/travis/Michael Henry Pantaleon/Localizr-iOS.svg?style=flat)](https://travis-ci.org/Michael Henry Pantaleon/Localizr-iOS)
+[![CI Status](https://img.shields.io/travis/michaelhenry/Localizr-iOS.svg?style=flat)](https://travis-ci.org/michaelhenry/Localizr-iOS)
 [![Version](https://img.shields.io/cocoapods/v/Localizr-iOS.svg?style=flat)](https://cocoapods.org/pods/Localizr-iOS)
 [![License](https://img.shields.io/cocoapods/l/Localizr-iOS.svg?style=flat)](https://cocoapods.org/pods/Localizr-iOS)
 [![Platform](https://img.shields.io/cocoapods/p/Localizr-iOS.svg?style=flat)](https://cocoapods.org/pods/Localizr-iOS)
