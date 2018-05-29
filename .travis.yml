@@ -13,9 +13,9 @@ jobs:
         - cd Example
         - pod install
         - xcodebuild test -workspace Localizr-iOS.xcworkspace -scheme Localizr-iOS-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X' -quiet
-    - stage: Swift Package Manager
-      script:
-        - swift build
+    # - stage: Swift Package Manager
+    #   script:
+    #     - swift build
     - stage: deploying to cocoapods
       before_install:
         - echo $TRAVIS_TAG
