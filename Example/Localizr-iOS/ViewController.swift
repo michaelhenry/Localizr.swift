@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Localizr_iOS
+import Localizr_swift
 
 class ViewController: UITableViewController {
   

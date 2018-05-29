@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'Localizr-iOS_Example' do
-  pod 'Localizr-iOS', :path => '../'
+  pod 'Localizr.swift', :path => '../'
 
   target 'Localizr-iOS_Tests' do
     inherit! :search_paths

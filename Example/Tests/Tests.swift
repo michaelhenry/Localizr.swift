@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import Localizr_iOS
+import Localizr_swift
 
 // TODO: Update test cases
 class TableOfContentsSpec: QuickSpec {

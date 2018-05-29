@@ -293,11 +293,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Localizr-iOS_Example/Pods-Localizr-iOS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Localizr-iOS/Localizr_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Localizr.swift/Localizr_swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localizr_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localizr_swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
