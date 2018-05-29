@@ -7,9 +7,15 @@
 
 ![Preview](localizr.gif)
 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+I did not write anything to all **Localizable.strings** files that can be found in [Locales folder](Example/Localizr-iOS/Locales) so that you could see how it was generated and sync using the [Localizr server](https://github.com/michaelhenry/localizr) when you start to run this example project.
+
+You can check the Project's **Build Phases > Run Script** and see how I curl the data from the [Localizr server](https://github.com/michaelhenry/localizr). I do recommend to do this using CI for development build distribution(not appstore/testflight build distribution).
+
 
 ## Requirements
 
@@ -21,6 +27,38 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'Localizr.swift'
 ```
+
+## How to use it.
+
+```swift
+import Localizr_swift
+
+```
+
+To show all supported localization
+```swift
+Localizr.supportedLocales()
+
+```
+
+To update the current localization
+```swift
+Localizr.update(locale: "en")
+
+```
+
+To get the current localization
+```swift
+Localizr.currentLocale()
+
+```
+
+To show the localized value
+```swift
+"HELLO_WORLD".localized()
+
+```
+
 
 ## Author
 
