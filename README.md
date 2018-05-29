@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/Localizr.swift.svg?style=flat)](https://cocoapods.org/pods/Localizr.swift)
 [![Platform](https://img.shields.io/cocoapods/p/Localizr.swift.svg?style=flat)](https://cocoapods.org/pods/Localizr.swift)
 
+![Preview](localizr.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
