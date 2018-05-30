@@ -1,10 +1,3 @@
-//
-//  Localizr.swift
-//  FBSnapshotTestCase
-//
-//  Created by Michael Henry Pantaleon on 2018/05/29.
-//
-
 import Foundation
 
 enum LocalizrKey:String {
