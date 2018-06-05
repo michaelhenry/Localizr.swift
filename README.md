@@ -14,8 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 I did not write anything to all **Localizable.strings** files that can be found in [Locales folder](Example/Localizr-iOS/Locales) so that you could see how it was generated and synced using the [Localizr server](https://github.com/michaelhenry/localizr) when you start to run this example project.
 
-You can check the Project's **Build Phases > Run Script** and see how I CURL(ed) the data from the [Localizr server](https://github.com/michaelhenry/localizr). I do recommend to do this using CI for adhoc build distribution(not development/appstore/testflight build distribution).
-
+You can check the Project's **Build Phases > Run Script** and see how I CURL(ed) the data from the [Localizr server](https://github.com/michaelhenry/localizr). I do recommend to do this using CI for adhoc build distribution(not development/appstore/testflight build distribution). You should freeze the localization files during testflight build distribution or atleast enable the snapshot capability from the Localizr server.
 
 ## Requirements
 
