@@ -52,7 +52,7 @@ extension String {
   ///
   /// - Parameter repeated: (Optional) This is the number of count where the localized text will going to repeat.
   /// - Returns: String?
-  public func localized(repeated:Int = 1) -> String? {
+  public func localized(repeated:Int = 1) -> String {
     
     let localeCode = UserDefaults.standard.string(forKey: LocalizrKey.currentLocale.rawValue)
     var s = ""
