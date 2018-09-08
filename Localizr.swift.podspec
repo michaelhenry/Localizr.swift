@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Localizr.swift'
-  s.version          = ENV["RXRETROFIT_VERSION"] || '1.0.0'
+  s.version          = ENV["LOCALIZR_SWIFT_VERSION"] || '1.0.0'
   s.summary          = 'An iOS library that simplies the Localization process.'
 
   s.description      = <<-DESC
